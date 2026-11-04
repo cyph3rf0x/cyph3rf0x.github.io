@@ -1,7 +1,7 @@
-"""Build low-res cover thumbnails and the cover list for page.htm.
+"""Build low-res cover thumbnails and the cover list for atari.htm.
 
 For every PDF in ./pdfs this renders page 1 to ./thumbnails/<same name>.jpg
-and writes ./thumbnails/covers.js, which page.htm loads.
+and writes ./thumbnails/covers.js, which atari.htm loads.
 
 Re-run it after adding or removing PDFs:
     python make_thumbnails.py           (skips thumbnails that already exist)
